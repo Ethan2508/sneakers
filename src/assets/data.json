@@ -1,0 +1,27 @@
+{
+    "sneakers": [
+      {
+        "id": 473391,
+        "brand_name": "Air Jordan",
+        "name": "Patta x Air Jordan 7 Retro OG SP 'Shimmer'",
+        "color": "Brown",
+        "release_date": "2019-05-18T07:00:00.000Z",
+        "retail_price_cents": 200,
+        "shoe_condition": "new_no_defects",
+        "size_range": [10, 10.5, 11, 11.5, 12],
+        "sku": "AT3375 200"
+      },
+      {
+        "id": 404758,
+        "brand_name": "Air Jordan",
+        "name": "Air Jordan 1 Retro High OG 'Turbo Green'",
+        "color": "Green",
+        "release_date": "2019-02-15T23:59:59.000Z",
+        "retail_price_cents": 160,
+        "shoe_condition": "used",
+        "size_range": [10, 10.5, 11, 11.5, 12],
+        "sku": "555088 311"
+      }
+    ]
+  }
+  
