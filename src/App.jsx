@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Checkout from "./pages/Checkout";
-import Recommendion from "./components/Recommendation";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Cart, Explore, Home, Preview } from "./pages/index";
+
 
 const App = () => {
   return (
@@ -16,8 +17,8 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/preview/:id" element={<Preview />} />
         <Route path="/checkout" element={<Checkout />} />
-
       </Routes>
+      <Footer />
     </div>
   );
 };

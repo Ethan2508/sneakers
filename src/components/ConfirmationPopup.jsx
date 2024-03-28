@@ -48,14 +48,14 @@ const ConfirmationPopup = ({ onClose }) => {
         button {
           margin-top: 20px;
           padding: 10px 20px;
-          background-color: #007bff;
+          background-color: #000;
           color: white;
           border: none;
           border-radius: 5px;
           cursor: pointer;
         }
         button:hover {
-          background-color: #0056b3;
+          background-color: #333;
         }
       `}</style>
     </div>

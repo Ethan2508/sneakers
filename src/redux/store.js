@@ -24,3 +24,6 @@ const loadCartFromLocalStorage = () => {
   }
 };
 loadCartFromLocalStorage();
+
+// À chaque fois que l'état du store change, la souscription au store déclenche une sauvegarde de l'état du panier dans le localStorage. Au démarrage de l'application, l'état du panier est récupéré du localStorage s'il existe et est utilisé pour initialiser l'état du store avec 
+// la fonction setCartFromLocalStorage. Cela garantit que les articles ajoutés au panier sont conservés même après le rechargement de la page ou la fermeture de l'onglet du navigateur.
