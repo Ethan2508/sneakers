@@ -18,12 +18,12 @@ const Navbar = () => {
     <div className="p-1 md:p-4 flex items-center justify-between h-10 w-full">
       <div className="flex flex-row items-center gap-2">
         {/* Utilisation du logo importé au lieu du texte */}
-        <img src={logo} alt="SneakAddict Logo" className="h-6 md:h-8 mt-2 ml-4" />
+        <Link to="/"><img src={logo} alt="SneakAddict Logo" className="h-6 md:h-8 mt-2 ml-4" /></Link>
       </div>
 
       <ul className="hidden md:flex text-sm text-black dark:text-white font-semibold md:tracking-wide flex-col gap-2 md:flex-row md:gap-8">
         <li>
-          <Link to="/">Accueil</Link>
+        <Link to="/">Accueil</Link>
         </li>
         <li>
           <Link to="/explore">Catalogue</Link>

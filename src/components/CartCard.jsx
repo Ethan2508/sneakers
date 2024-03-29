@@ -37,7 +37,7 @@ const CartCard = ({ item }) => {
               {item.story_html.split(" ").slice(0, 28).join(" ") + "..."}
             </div>
             {/* Affichage de la taille sélectionnée */}
-            <div className="text-s font-bold">
+            <div className="text-xs font-bold">
               Taille: {item.selectedSize} US
             </div>
             <div className="flex justify-evenly gap-x-8 mt-2 md:gap-x-0 md:justify-evenly">

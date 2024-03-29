@@ -26,7 +26,7 @@ const PreviewCard = ({ shoe }) => {
   };
 
   const img = shoe.original_picture_url;
-  const price = (shoe.retail_price_cents / 100).toFixed(2);
+  const price = (shoe.retail_price_cents).toFixed(2);
   const desc = shoe.story_html;
   const name = shoe.name;
   const date = new Date(shoe.release_date).toLocaleDateString('fr-FR', {
